@@ -17,6 +17,10 @@ import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
 from datetime import datetime
+import streamlit as st
+import pandas as pd
+import plotly.graph_objects as go
+from sklearn.linear_model import LinearRegression
 
 # ============================================================================
 # PAGE CONFIGURATION
